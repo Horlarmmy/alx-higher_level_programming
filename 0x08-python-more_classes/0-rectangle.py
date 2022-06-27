@@ -4,6 +4,7 @@ Module Rectangle
 Classs A rectangle object
 """
 
+
 class Rectangle:
     """ A rectangle class"""
     pass
