@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-Base = __import__('5-base_geometry').BaseGeometry
+Base = __import__('6-base_geometry').BaseGeometry
 
 bg = Base()
 
-print(bg)
-print(dir(bg))
-print(dir(Base))
+try:
+    print(bg.area())
+except Exception as e:
+    print("[{}] {}" .format(e.__class__.__name__, e))

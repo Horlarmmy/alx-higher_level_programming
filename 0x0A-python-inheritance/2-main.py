@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 is_same_class = __import__('4-inherits_from').inherits_from
 
-a = 1
+a = True
 if is_same_class(a, int):
     print("{} is an instance of the class {}".format(a, int.__name__))
 if is_same_class(a, float):
