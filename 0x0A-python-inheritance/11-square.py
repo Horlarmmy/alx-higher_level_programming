@@ -13,12 +13,12 @@ class Square(Rectangle):
         """ Initializes the class instance """
         self.integer_validator("size", size)
         self.__size = size
-        super().__init__(self.__size)
+        super().__init__(self.__size, self.__size)
 
-    def area():
+    def area(self):
         """Method that returns the area"""
         return self.__size * self.__size
 
-    def __str__():
+    def __str__(self):
         """ method that returns a string"""
         return "[Square] {}/{}".format(self.__size, self.__size)
