@@ -4,7 +4,7 @@ Module Rectangle inherited from Base class
 Class Rectangle
 """
 
-from base import Base
+from models.base import Base
 
 
 class Rectangle(Base):
