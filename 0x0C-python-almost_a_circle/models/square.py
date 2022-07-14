@@ -18,7 +18,6 @@ class Square(Rectangle):
             y: position on y axis
             id: id of the square
         """
-        self.size = size
         super().__init__(size, size, x, y, id)
 
     @property
