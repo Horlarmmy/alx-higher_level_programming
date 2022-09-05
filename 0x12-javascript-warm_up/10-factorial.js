@@ -1,5 +1,4 @@
-#!/usr/bin/node
-function factorial(a) {
+#!/usr/bin/nodefunction factorial(a) {
     if (Number.isNaN(a) || a === 1) {
         return 1;
     }
