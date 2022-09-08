@@ -1,3 +1,4 @@
+#!/usr/bin/node
 exports.nbOccurences = function (list, searchElement) {
   const s = searchElement;
   let count = 0;
