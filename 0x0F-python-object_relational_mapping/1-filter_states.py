@@ -9,7 +9,7 @@ if __name__ == '__main__':
     conn = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2],
                            db=sys.argv[3], port=3306)
     cur = conn.cursor()
-    cur.execute("SELECT * FROM states WHERE binary like 'N%';")
+    cur.execute("SELECT * FROM states;")
     states = cur.fetchall()
     for row in states:
         if row[1][0] == 'N':
