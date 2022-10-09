@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-Function that returns the json representation of an object
+Function that returns an object of JSON string
 """
 
 import json
 
 
-def to_json_string(my_obj):
-    """ Function that returns the json rep"""
-    ans = json.dumps(my_obj)
+def from_json_string(my_str):
+    """ Function that returns of object of string"""
+    ans = json.loads(my_str)
     return ans
