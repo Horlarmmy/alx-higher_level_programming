@@ -8,6 +8,6 @@ import json
 
 def load_from_json_file(filename):
     """ Function that loads the obj from json"""
-    with open(filename, 'w',) as f:
+    with open(filename, 'r',) as f:
         my_obj = json.load(f)
     return my_obj
